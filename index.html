@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets\css\styles.css">
+    <link rel="icon" href="assets\img\istockphoto-1140908112-170667a.jpg">
+    <title>Simulador Plazo Fijo</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col col-md-8 mr-md-auto ml-md-auto" id="contenido-formulario">
+                <div class="row">
+                    <div id="caja-plazo-fijo" class="col col-md-10 mr-md-auto ml-md-auto">
+                        <div class="header">
+                            <h1 class="display-2">Simulador de Plazo fijo</h1>
+                            <p class="lead">La solucion a la duda de si invertir o no hacerlo y en que moneda.</p>
+                        </div>
+
+                        <form action="#" id="cotizar-plazo-fijo">
+                            
+                            <div class="form-group col col-md-11 mr-md-auto ml-md-auto" id="form-group">
+                                <label for="moneda">Moneda:</label>
+                                <select class="form-control" id="moneda">
+                                    <option >-Seleccionar-</option>
+                                    <option value="1">Peso Argentino</option>
+                                    <option value="2">Dolar</option>
+                                    <option value="3">Euro</option>
+                                    <option value="4">Yen</option>
+                                </select>
+                            </div>
+                            <div class="form-group col col-md-11 mr-md-auto ml-md-auto">
+                                <label for="cantidad">Cantidad: </label>
+                                <input type="text" class="form-control" id="cantidad" aria-describedby="inputGroup-sizing-default">
+                            </div>
+                            <div class="form-group col col-md-11 mr-md-auto ml-md-auto">
+                                <label for="plazo">Plazo: </label>
+                                <select id="plazo" class="form-control">
+                                    <option >-Seleccionar-</option>
+                                    <option value="1">1 Mes</option>
+                                    <option value="2">3 Meses</option>
+                                    <option value="3">6 Meses</option>
+                                    <option value="4">1 Año</option>
+                                </select>
+                            </div>
+                            <div id="resultado">
+                                
+                            </div>
+                            <div class="center">
+                            <button type="submit" class="btn btn-raised btn-primary btn-lg align-self-center">
+                                Cotizar
+                            </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="assets\js\app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</html>
