@@ -103,7 +103,7 @@ class Interfaz{
             <p class="resultado-parrafo">Cantidad : $${plazoFijo.cantidad}</p>
             <p class="resultado-parrafo">Plazo : ${plazoSeleccionado}</p>
             <p class="resultado-parrafo">Total a recibir: $${total}</p>
-            <p class="resultado-parrafo lead">Valores expresados en pesos argentinos 01/07/2020</p>`;
+            <p class="resultado-parrafo lead">Valor Final expresado en pesos argentinos 01/07/2020</p>`;
             setTimeout(function() {
                 formulario.insertBefore(div, document.querySelector('#resultado div'));
            }, 3000);
